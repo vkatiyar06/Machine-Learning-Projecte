@@ -1,0 +1,7 @@
+HeartDisease dataset from Kaggle is used.
+Categorical attributes are One Hot Encoded.
+RandomForestClassifier with max depth of 8 is used to train the model giving Sensitivity of 0.903 and Specificity of 0.76.
+By using Permutation Importance method it can be observed that important features like thalassemia_reversable defect,num_major_vessels etc are
+the one which affects the prediction greatly.
+SHAP values suggest that number of blood vessels in the heart of a person is really important feature contributing for heart attack, as it's low values
+are bad. 
